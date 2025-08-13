@@ -12,7 +12,3 @@ export const connectDB = async () => {
       process.exit(1);
     });
 };
-
-// MONGODB_URI='mongodb+srv://prathm_26:Prathm_2002@cluster0.o1d4lnp.mongodb.net/food-delivery'
-// JWT_SECRET=super_secure_key
-// PORT=5000

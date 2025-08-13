@@ -8,7 +8,7 @@ const Signup = () => {
 
   const handleSignup = async () => {
     try {
-      await axios.post('http://localhost:5000/api/Signup', form);
+      await axios.post('http://localhost:5000/api/signup', form);
       alert('Signup successful');
     } catch (err) {
       alert(err.response?.data?.msg || 'Signup failed');
